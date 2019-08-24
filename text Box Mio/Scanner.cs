@@ -389,8 +389,19 @@ public class Scanner {
                 case "writeln":
                     t.kind = Token.WRITELN;
                     break;
-
-            }
+                case "int":
+                    t.kind = Token.TYPE;
+                    break;
+                case "float":
+                    t.kind = Token.TYPE;
+                    break;
+                case "boolean":
+                    t.kind = Token.TYPE;
+                    break;
+                case "string":
+                    t.kind = Token.TYPE;
+                    break;
+                }
         else
         {
             t.kind = Token.IDENT;

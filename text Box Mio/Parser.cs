@@ -519,7 +519,7 @@ namespace at.jku.ssw.cc
             Code.seleccLaProdEnLaGram(12);
             MessageBoxCon3Preg();
             //-------------------------------------------------Grupo 2 28/9/2015----------------------------------------------------------------------- 
-            Check(Token.IDENT); // "pos", en int pos,   .....int,....  x, i, etc
+            Check(Token.TYPE); // "pos", en int pos,   .....int,....  x, i, etc
             Code.seleccLaProdEnLaGram(6);
             padre.Nodes.Add("ident");// Hace referencia a la x
             MessageBoxCon3Preg();
